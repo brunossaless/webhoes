@@ -1,0 +1,35 @@
+:root{
+    --background-color: #f6eee0;
+    --fontTextColor: #f04842 ;
+    --navTextColor: #f0b180;
+    --tileColor: #351f15;
+    --paragraphStyle: #3f312b;
+    --linkColor: #363433;
+    --backgroundColorTenis: #f7f7f7;
+    --fontTextColorAbout: #994200;
+    --buttonEditColor: #fde0ad;
+    --buttonColorCrud: #38cf6a;
+    --buttonColorCrudHover: #19ff66;
+    --buttonFloating: #f5a818c2;
+    --buttonFloatingShadow: #fffb00;
+    --svgIcon: #807575;
+}
+*{
+    padding: 0;
+    font-family: "Oswald" ,sans-serif;
+}
+
+body{
+    margin: 0; 
+}
+html {
+    background: var(--background-color);
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: right;
+    width: 100%;
+}
